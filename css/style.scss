@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/58045dabdc3a361cb9bb9faf2f1dd1f3?family=Digital-7);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #000a21;
+  color: #3e54ff;
+
+  font-family: "digital-7", arial;
+  // letter-spacing: 7px;
+
+  body {
+    // display: flex;
+    
+    // justify-content: center;
+    // align-items: center;
+    // align-content: center;
+    // align-self: center;
+   
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .conta {
+     //background-color: rgba(0, 72, 255, 0.085);
+        
+     width: 100%;
+
+        
+
+        
+
+        
+    }
+
+    .clock {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        text-shadow: -3px 3px 12px #919eff8d;
+        font-kerning: none;
+      }
+    }
+    .date {
+      display: flex;
+      justify-content: center;
+      span {
+        text-shadow: -3px 3px 12px #919eff8d;
+        font-kerning: none;
+        font-size: 6vw;
+      }
+    }
+  }
+}
