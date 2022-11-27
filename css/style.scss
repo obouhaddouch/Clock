@@ -1,4 +1,6 @@
-// @import url(//db.onlinewebfonts.com/c/58045dabdc3a361cb9bb9faf2f1dd1f3?family=Digital-7);
+//@import url(//db.onlinewebfonts.com/c/58045dabdc3a361cb9bb9faf2f1dd1f3?family=Digital-7);
+
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
 
 * {
   margin: 0;
@@ -11,7 +13,11 @@ html {
   color: #3e54ff;
 
   font-family: "digital-7", arial;
-  // letter-spacing: 7px;
+  
+//   font-family: 'Digital-7 Mono', sans-serif;
+//  // font-family: 'Digital-7', sans-serif;
+//   font-family: 'Digital-7 Italic', sans-serif;
+
 
   body {
     // display: flex;
