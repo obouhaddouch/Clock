@@ -9,6 +9,7 @@ html {
   background: #000a21;
   color: #3e54ff;
   font-family: "digital-7", arial;
+  height: 100%;
 }
 html body {
   height: 100%;
@@ -32,11 +33,11 @@ html body .clock span {
   font-kerning: none;
 }
 html body .date {
-  display: flex;
-  justify-content: center;
+  height: 100%;
+  text-align: center;
 }
 html body .date span {
   text-shadow: -3px 3px 12px rgba(145, 158, 255, 0.5529411765);
   font-kerning: none;
-  font-size: 6vw;
+  font-size: 8vw;
 }/*# sourceMappingURL=style.css.map */

@@ -14,9 +14,9 @@ html {
 
   font-family: "digital-7", arial;
   
-//   font-family: 'Digital-7 Mono', sans-serif;
-//  // font-family: 'Digital-7', sans-serif;
-//   font-family: 'Digital-7 Italic', sans-serif;
+ // style="height:100%; margin:0; padding:0"
+  height: 100%;
+
 
 
   body {
@@ -59,12 +59,15 @@ html {
       }
     }
     .date {
-      display: flex;
-      justify-content: center;
+      //background-color: #3e54ff;
+      height: 100%;
+      text-align: center;
+     
+      
       span {
         text-shadow: -3px 3px 12px #919eff8d;
         font-kerning: none;
-        font-size: 6vw;
+        font-size: 8vw;
       }
     }
   }
